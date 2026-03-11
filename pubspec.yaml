@@ -1,0 +1,47 @@
+name: s_t_s
+description: "A new Flutter project."
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  # flutter_bluetooth_serial_plus: ^0.5.1
+
+  # flutter_bluetooth_serial: ^0.4.0
+  # mobile_scanner: ^3.5.0
+  # qr_flutter: ^4.1.0
+  
+  # 🔹 Local storage (deviceId, username)
+  shared_preferences: ^2.2.2
+
+  # 🔹 UUID for deviceId & sessionId
+  uuid: ^4.3.3
+  
+  # network_info_plus: ^5.0.2
+  wifi_iot: ^0.3.19
+  mobile_scanner: ^3.5.6
+  qr_flutter: ^4.1.0
+  network_info_plus: ^5.0.2
+  path_provider: ^2.1.2
+  permission_handler: ^11.3.1
+  file_picker: ^8.0.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
