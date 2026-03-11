@@ -54,7 +54,7 @@ class _ScannerScreenState extends State<ScannerScreen> {
           ),
         ),
       );
-
+//     Navigator.pushReplacement( 
     } catch (e) {
       debugPrint("❌ CONNECTION ERROR: $e");
 
